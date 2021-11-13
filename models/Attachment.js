@@ -1,13 +1,14 @@
 const { Schema, model } = require("mongoose");
 const { REQUIRED_STRING } = require("../constants/mongoose-constants");
 
-const serverSchema = new Schema(
+const attachmentSchema = new Schema(
   {
-    servername: REQUIRED_STRING,
+    dataurl: REQUIRED_STRING,
+    filetype: REQUIRED_STRING,
   },
   {
     timestamps: true,
   }
 );
 
-module.exports = model("Server", serverSchema);
+module.exports = model("Attachment", attachmentSchema);

@@ -1,13 +1,13 @@
 const { Schema, model } = require("mongoose");
 const { REQUIRED_STRING } = require("../constants/mongoose-constants");
 
-const serverSchema = new Schema(
+const reactSchema = new Schema(
   {
-    servername: REQUIRED_STRING,
+    icon: REQUIRED_STRING,
   },
   {
     timestamps: true,
   }
 );
 
-module.exports = model("Server", serverSchema);
+module.exports = model("React", reactSchema);

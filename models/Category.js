@@ -1,13 +1,13 @@
 const { Schema, model } = require("mongoose");
 const { REQUIRED_STRING } = require("../constants/mongoose-constants");
 
-const serverSchema = new Schema(
+const categorySchema = new Schema(
   {
-    servername: REQUIRED_STRING,
+    categoryname: REQUIRED_STRING,
   },
   {
     timestamps: true,
   }
 );
 
-module.exports = model("Server", serverSchema);
+module.exports = model("Category", categorySchema);
