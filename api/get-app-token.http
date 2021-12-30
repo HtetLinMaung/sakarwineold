@@ -1,0 +1,6 @@
+
+GET http://localhost:4100/sakarwine/auth/get-app-token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiJqc3RodGV0OTZAZ21haWwuY29tIiwiYXBwaWQiOiJzYWthcndpbmUiLCJjb21wYW55aWQiOiJ0ZWNoaHlwZSIsImNvbXBhbnluYW1lIjoidGVjaGh5cGUiLCJyb2xlIjoibm9ybWFsdXNlciIsImlhdCI6MTY0MDg1MzU4MywiZXhwIjoxNjQwOTM5OTgzfQ.Bwemu2na8LCGhAHuGyHVVIZs9wTCru7VV0abuqc-pXQ HTTP/1.1
+content-type: application/json
+
+
+
